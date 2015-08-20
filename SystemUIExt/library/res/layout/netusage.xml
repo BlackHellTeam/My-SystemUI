@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lewa.systemuiext.net.NetUsageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/netusage"
+    android:background="@drawable/netusage_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/netusage_height" >
+    <ImageView
+        android:id="@+id/progress"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:visibility="visible"
+        android:background="@drawable/netusage_progress"/>
+
+    <TextView
+        android:id="@android:id/text2"
+        style="@style/NetUsageTextAppearanceWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@android:id/icon"
+        android:gravity="center_vertical"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="@string/netusage"
+        android:textSize="@dimen/netusage_text_size"
+        android:layout_marginLeft="@dimen/fragment_padding_side_left" />
+
+    <TextView
+        android:id="@android:id/text1"
+        style="@style/NetUsageTextAppearanceWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/item_padding_side"
+        android:gravity="center_vertical|right"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="@dimen/netusage_text_size"
+        android:layout_marginRight="@dimen/fragment_padding_side" />
+    
+</com.lewa.systemuiext.net.NetUsageView>

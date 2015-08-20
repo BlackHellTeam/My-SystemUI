@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lewa="http://schemas.android.com/apk/res/lewa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+    <RelativeLayout
+        android:id="@+id/switch_item_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:gravity="center_vertical"
+        android:ignoreGravity="@+id/icon"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+        
+         <!-- icon representing the galaxy s widget button -->
+         <ImageView 
+            android:id="@+id/icon"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="@dimen/switcher_width_dimen"
+            android:layout_height="@dimen/switcher_width_dimen"
+            android:contentDescription="@null"
+            />
+            <!-- android:layout_alignParentRight="true" -->
+
+        <!-- The height is set to half the height of the parent, which is 64 dip -->
+        <TextView android:id="@+id/name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:paddingLeft="9dip"
+            android:paddingRight="9dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop = "true"
+            android:layout_alignParentBottom = "true"
+            android:layout_toRightOf="@id/icon"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            />
+
+        <!-- left icon, used for the grabber -->
+        <ImageView
+            android:id="@+id/grabber"
+	        android:src="@drawable/ic_grabber"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            />
+
+    </RelativeLayout>
+    
+    <LinearLayout 
+       android:id="@+id/notice_nums_id"
+	   android:layout_width="fill_parent"
+	   android:layout_height="24dip"
+	   android:orientation="vertical"
+	   android:background="#e0e0e0"
+	   android:visibility="gone"
+	   >
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/switchwidgetsettings_notice_title"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+    </LinearLayout>
+</LinearLayout>

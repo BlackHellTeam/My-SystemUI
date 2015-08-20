@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/statusbarsettings" >
+
+    <PreferenceCategory
+        android:key="key_statusbarsettings"
+        android:title="@string/statusbarsettings" >
+       <Preference
+            android:key="key_notifilter_setting"
+            android:title="@string/notifilter_activity_title" >
+        </Preference>
+        <Preference
+            android:key="key_widgetbuttongsettings"
+            android:title="@string/widget_setting" >
+        </Preference>
+        <SwitchPreference
+            android:key="netusage_setting"
+            android:persistent="false"
+            android:title="@string/usagedata_setting" >
+        </SwitchPreference>
+
+        <SwitchPreference
+            android:key="netspeed_setting"
+            android:persistent="false"
+            android:title="@string/netspeed_setting">
+        </SwitchPreference>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/trans_statusbar_key"
+            android:title="@string/trans_statusbar_setting" >
+        </SwitchPreference>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="lockscreen_expandable_key"
+            android:summary="@string/lockscreen_expanded_comman"
+            android:title="@string/lockscreen_expanded">
+        </SwitchPreference>
+
+    <SwitchPreference
+        android:key="action_updown"
+        android:title="@string/pref_title_action_updown"
+        android:summary="@string/pref_summary_action_updown"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+            android:defaultValue="true"
+            android:key="shake_clean"
+            android:persistent="true"
+            android:summary="@string/shake_clean_summary"
+            android:title="@string/shake_clean_title" >
+        </SwitchPreference>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="single_page"
+            android:persistent="true"
+            android:summary="@string/single_page_summary"
+            android:title="@string/single_page_title" >
+        </SwitchPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

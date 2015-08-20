@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+  LEWA ADD
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Tabs for statusbar expanded view -->
+    <string name="tab_notifications">通知</string>
+    <string name="tab_switches">开关</string>
+    <string name="title_buttons">开关</string>
+    <string name="title_toggle_wifi">WLAN</string>
+    <string name="title_toggle_bluetooth">蓝牙</string>
+    <string name="title_toggle_gps">GPS</string>
+    <string name="title_toggle_sound">静音</string>
+    <string name="title_toggle_vibrator">振动</string>
+    <string name="title_ringer_vibrator">响铃振动</string>
+    <string name="title_toggle_brightness">亮度</string>
+    <string name="title_toggle_sync">自动同步</string>
+    <string name="title_toggle_mobiledata">移动数据</string>
+    <string name="title_toggle_lockscreen">启用/禁用锁屏</string>
+    <string name="title_toggle_networkmode">2G/3G</string>
+    <string name="title_toggle_autorotate">自动旋转</string>
+    <string name="title_toggle_airplane">飞行模式</string>
+    <string name="title_toggle_flashlight">手电筒</string>
+    <string name="title_toggle_sleep">睡眠</string>
+    <string name="title_toggle_locknow">锁屏</string>
+    <string name="title_toggle_shutdown">关机</string>
+    <string name="title_toggle_reboot">重启</string>
+    <string name="title_toggle_powermanager">超长待机</string>
+    <string name="title_toggle_switchwidgetstyle">更多</string>
+    <string name="title_toggle_screencapture">截屏</string>
+    <string name="title_toggle_wifiap">WLAN热点</string>
+    <string name="title_qr_code">扫二维码</string>
+    <string name="title_nightmode">夜间模式</string>
+    <string name="title_halo">通知球</string>
+    <string name="title_toggle_screen_wake">屏幕长亮</string>
+    <!-- SwitchWidgetSettingsActivity -->
+    <string name="switchwidgetsettings_title">开关位置自定义</string>
+    <string name="phonestatusbarsettings_title">开关位置自定义</string>
+    <string name="switchwidgetsettings_switch_title">通知栏设置</string>
+    <string name="switchwidgetsettings_switch_on">打开</string>
+    <string name="switchwidgetsettings_switch_off">关闭</string>
+    <string name="switchwidgetsettings_notice_title">以上10个开关会出现在通知栏</string>
+    <string name="statusbarsettings">通知栏设置</string>
+    <string name="double_statusbar_setting">使用双页通知栏tring name="tab_notifications">通知</string>
+
+    <string name="hotknot_settings_title">么么哒</string>
+
+    <string name="settings_double_status">key_double_status</string>
+    <string name="widget_setting">开关位置自定义</string>
+    <string name="usagedata_setting">显示流量统计</string>
+    <string name="netspeed_setting">显示网速提示</string>
+    <string name="settings_disusagedata">key_usagedata_settings</string>
+    <string name="today_usage">今日流量:</string>
+    <string name="month_left_usage">本月剩余:</string>
+    <string name="recent_totalmem">总共:</string>
+    <string name="recent_usedmem">已用:</string>
+    <string name="usb_mode_notification">USB移动存储</string>
+    <string name="trans_statusbar_setting">桌面状态栏全透明</string>
+    <string name="poputip_title1">此通知来自</string>
+    <string name="poputip_title2">禁止</string>
+    <string name="poputip_title3">禁止此应用所有通知推送</string>
+    <string name="poputip_title4">查看此应用的详情</string>
+    <string name="poputip_toast">已禁止<xliff:g id="name">%s</xliff:g>的消息推送</string>
+    
+    <string name="notifilter_setting">通知管理</string>
+    <string name="notifilter_activity_title">通知管理</string>
+    <string name="power_battery_fulltitle">电池电量</string>
+    <string name="power_battery_full">已经充满电，请拔出充电器</string>
+    <string name="lockscreen_expanded">允许锁屏时下拉</string>
+    <string name="lockscreen_expanded_comman">仅在非密码锁屏下有效</string>
+    <string name="title_toggle_gemini_data">数据卡</string>
+    <string name="recent_noapp">最近没有运行任何应用</string>
+    <string name="notifilter_cloud">智能云拦截</string>
+    <string name="notifilter_addtoblack">添加拦截</string>
+    <string name="notifilter_del">取消拦截</string>
+    <string name="notifilter_allow">允许通知</string>
+    <string name="notifilter_denie">拦截通知</string>
+    <plurals name="notifilter_headernotice">
+      <item quantity="other">%d 个应用通知被拦截</item>
+    </plurals>
+    <string name="notifilter_cloudlasttime">上次同步时间：</string>
+    <string name="notifilter_cloudtip">智能拦截通知栏广告推送信息\n最新版本:  </string>
+    <string name="notifilter_cloudloading">正在同步...</string>
+    <string name="notifilter_item_activity">通知管理</string>
+    <string name="otg_to_filemanager">点击进入文件管理器</string>
+    <string name="otg_connect">USB存储设备已连接</string>
+    <string name="otg_unmount">安全移除</string>
+    <!--HALO-->
+    <string name="halo_dismiss">清除当前消息</string>
+    <string name="halo_hide">隐藏</string>
+    <string name="halo_clear_all">清除所有消息</string>
+    <string name="halo_silence">隐藏 &amp; 消息不提示</string>
+    <string name="halo_tutorial1">亲，我是悬浮通知小球</string>
+    <string name="halo_tutorial2">双击可移动小球</string>
+    <string name="halo_tutorial3">水平滑动游览消息</string>
+
+   <!--ONLY IN CHINESE-->
+    <string name="time_0_3">深夜</string>
+    <string name="time_4_6">凌晨</string>
+    <string name="time_7_9">早晨</string>
+    <string name="time_10_11">上午</string>
+    <string name="time_12">中午</string>
+    <string name="time_13_16">下午</string>
+    <string name="time_17_18">傍晚</string>
+    <string name="time_19_23">晚上</string>    
+    <string name="menu_actionbar_selected_items">已选定<xliff:g id="name">%s</xliff:g>个</string>
+    
+    <string name="reboot_now_confirm">确认</string>
+    <string name="reboot_later_confirm">取消</string>
+    <string name="reboot">重启</string>
+    <string name="reboot_message">是否立即重启以生效</string>
+    <string name="set_data_subscription_progress">"正在设置默认数据通道"</string>
+    <string name="title_toggle_msim_data">数据卡</string>
+    <string name="shake_clean_title">甩动手机清除通知</string>
+    <string name="shake_clean_summary">甩动手机快速清除通知</string>
+    <string name="widget_disabled_mobile">已停用移动数据</string>
+    <string name="usage_title">流量监控</string>
+    <string name="widget_data_pack_warning">请设置流量套餐</string>
+    <string name="widget_exceed">超出</string>
+    <string name="not_set">未设置</string>
+    <string name="zero">0B</string>
+    <string name="widget_remain">剩余</string>
+    <string name="widget_today_usage">今日</string>
+    <string name="netusage">流量监控</string>
+    
+    <string name="single_page_title">单页显示</string>
+    <string name="single_page_summary">通知栏单页显示</string>
+
+    <string name="block_notification">拦截通知</string>
+    
+    <string name="notifications_empty">没有通知</string>
+    
+<!--     <string name="usb_sub">将手机作为U盘进行文件复制</string> -->
+    <string name="pref_title_action_updown">手势操作</string>
+    <string name="pref_summary_action_updown">桌面上做下滑手势，快速打开通知栏</string>
+    <string name="mobile_data_warning">"正在打开数据连接，这可能会产生流量费用"\n\n"警告：如果您不理解该请求，或者您不想加入此动作，拒绝它一般是个不错的选择。"</string>
+
+    <string name="status_remind_rec_start">正在录音</string>
+    <string name="status_remind_rec_pause">录音暂停</string>
+    <string name="status_remind_incall">通话中</string>
+    <string name="status_remind_wifiap">WLAN热点:</string>
+    <string name="status_remind_light">手电筒已开启</string>
+</resources>

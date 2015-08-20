@@ -1,0 +1,113 @@
+SERVICE com.android.systemui/.SystemUIService 424dc5d8 pid=6311
+  Client:
+    dumping service: com.android.systemui.recent.Recents
+    dumping service: com.android.systemui.statusbar.SystemBars
+    Current Status Bar state:
+      mExpandedVisible=false, mTrackingPosition=0
+      mTicking=false
+      mTracking=false
+      mDisplayMetrics=DisplayMetrics{density=2.0, width=720, height=1280, scaledDensity=2.0, xdpi=320.0, ydpi=320.0}
+      mPile: [(0,0)(720,768) 720x768]
+      mTickerView: [(0,0)(720,50) 720x50]
+      mScrollView: [(0,0)(720,768) 720x768] scroll 0,0
+      mInteractingWindows=0
+      mStatusBarWindowState=WINDOW_STATE_SHOWING
+      mStatusBarMode=MODE_TRANSLUCENT
+      mStatusBarView.BarTransitions.mMode=MODE_TRANSLUCENT
+      mNavigationBarView=null
+      Panels: 
+        mNotificationPanel=com.android.systemui.statusbar.phone.NotificationPanelView{41f011e8 G.E..... ......ID 0,0-720,200 #7f0b006d app:id/notification_panel} params=ViewGroup.LayoutParams={ width=match-parent, height=match-parent }
+          [PanelView(NotificationPanelView): expandedHeight=0.000000 fullHeight=1280.000000 closing=f tracking=f rubberbanding=f justPeeked=f peekAnim=ObjectAnimator@435eab18, target com.android.systemui.statusbar.phone.NotificationPanelView{41f011e8 G.E..... ......ID 0,0-720,200 #7f0b006d app:id/notification_panel}
+        expandedHeight:  0.0  168.0   timeAnim=ValueAnimator@43638b70]
+        mSettingsPanel=com.android.systemui.statusbar.phone.SettingsPanelView{42133db0 V.E..... ......ID 0,0-720,0 #7f0b00ad app:id/settings_panel} params=ViewGroup.LayoutParams={ width=match-parent, height=match-parent }
+          [PanelView(SettingsPanelView): expandedHeight=0.000000 fullHeight=50.000000 closing=f tracking=f rubberbanding=f justPeeked=f peekAnim=null timeAnim=ValueAnimator@42135bb0]
+      notification icons: 6
+        [0] key=android.os.BinderProxy@44737f38 icon=StatusBarIconView(slot=com.boatmob.floating.search/0x7fffffff icon=StatusBarIcon(pkg=com.boatmob.floating.searchuser=0 id=0x7f020028 level=0 visible=true num=0 ) notification=Notification(pri=-2 contentView=com.boatmob.floating.search/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x62 kind=[null]))
+             pkg=com.boatmob.floating.search id=2147483647 score=-20
+             notification=Notification(pri=-2 contentView=com.boatmob.floating.search/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x62 kind=[null])
+             tickerText="null"
+        [1] key=android.os.BinderProxy@4243c418 icon=StatusBarIconView(slot=mohammad.adib.roundr/0x41eb2f77 icon=StatusBarIcon(pkg=mohammad.adib.roundruser=0 id=0x7f02000a level=0 visible=true num=0 ) notification=Notification(pri=-2 contentView=mohammad.adib.roundr/0x7f030002 vibrate=null sound=null defaults=0x0 flags=0x62 kind=[null]))
+             pkg=mohammad.adib.roundr id=1105932151 score=-20
+             notification=Notification(pri=-2 contentView=mohammad.adib.roundr/0x7f030002 vibrate=null sound=null defaults=0x0 flags=0x62 kind=[null])
+             tickerText="null"
+        [2] key=android.os.BinderProxy@425984e8 icon=StatusBarIconView(slot=android/0x104047b icon=StatusBarIcon(pkg=androiduser=-1 id=0x1080595 level=0 visible=true num=0 ) notification=Notification(pri=-1 contentView=android/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null]))
+             pkg=android id=17040507 score=-10
+             notification=Notification(pri=-1 contentView=android/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null])
+             tickerText="已连接 USB 调试"
+        [3] key=android.os.BinderProxy@43428d60 icon=StatusBarIconView(slot=android/0x1080594 icon=StatusBarIcon(pkg=androiduser=-1 id=0x1080594 level=0 visible=true num=0 ) notification=Notification(pri=0 contentView=android/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x10 kind=[null]))
+             pkg=android id=17302932 score=0
+             notification=Notification(pri=0 contentView=android/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x10 kind=[null])
+             tickerText="有可用的 WLAN 网络"
+        [4] key=android.os.BinderProxy@42772b40 icon=StatusBarIconView(slot=android/0x2050103 icon=StatusBarIcon(pkg=androiduser=-1 id=0x10805b5 level=0 visible=true num=0 ) notification=Notification(pri=0 contentView=android/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null]))
+             pkg=android id=33882371 score=0
+             notification=Notification(pri=0 contentView=android/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null])
+             tickerText="作为 USB 存储设备使用"
+        [5] key=android.os.BinderProxy@4240f718 icon=StatusBarIconView(slot=com.android.systemui/0x10805b5 icon=StatusBarIcon(pkg=com.android.systemuiuser=-1 id=0x10805b5 level=0 visible=true num=0 ) notification=Notification(pri=0 contentView=com.android.systemui/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null]))
+             pkg=com.android.systemui id=17302965 score=0
+             notification=Notification(pri=0 contentView=com.android.systemui/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null])
+             tickerText="已连接 USB"
+      system icons: 7
+        [0] icon=StatusBarIconView(slot=sync_active icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020224 level=0 visible=false num=0 ) notification=null)
+        [1] icon=StatusBarIconView(slot=bluetooth icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020133 level=0 visible=false num=0 ) notification=null)
+        [2] icon=StatusBarIconView(slot=headset icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201e1 level=0 visible=false num=0 ) notification=null)
+        [3] icon=StatusBarIconView(slot=tty icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020225 level=0 visible=false num=0 ) notification=null)
+        [4] icon=StatusBarIconView(slot=volume icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201e4 level=0 visible=false num=0 ) notification=null)
+        [5] icon=StatusBarIconView(slot=cdma_eri icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f0201e6 level=0 visible=false num=0 ) notification=null)
+        [6] icon=StatusBarIconView(slot=alarm_clock icon=StatusBarIcon(pkg=com.android.systemuiuser=0 id=0x7f020118 level=0 visible=false num=0 ) notification=null)
+    NetworkController state:
+      DISCONNECTED network type -1 (null)
+      - telephony ------
+    ====== SlotId: 0 ======
+      hasService =false
+      mDataConnected =false
+      mSimState =ABSENT
+      mDataState =0
+      mDataActivity =0
+      mDataNetType =0/UNKNOWN
+      mServiceState =SIM1 1 1 home null null null  Unknown Unknown CSS not supported 0 0 RoamInd=0 DefRoamInd=0 EmergOnly=true Ril Voice Regist state: 0 Ril Data Regist state: 4 mCdmaNetWorkMode: 0
+      mSignalStrength =SignalStrength:SIM1 14 99 -120 -160 -120 0 -1 99 255 255 255 2147483647 gsm|lte -339 1 1
+      mNetworkName =无效的 IMEI
+      mPhoneSignalIconId =0x7f0201e3/com.android.systemui:drawable/stat_sys_no_sim
+      mDataDirectionIconId =7f0201e3/com.android.systemui:drawable/stat_sys_no_sim
+      mDataSignalIconId =0/(null)
+      mDataTypeIconId =0/(null)
+      mLastPhoneSignalIconId[0]=0x7f0201e3/com.android.systemui:drawable/stat_sys_no_sim
+      mLastPhoneSignalIconId[1]=0x0/(null)
+      mLastDataTypeIconId =0x0/(null)
+      - wifi ------
+      mWifiEnabled=true
+      mWifiConnected=false
+      mWifiRssi=0
+      mWifiLevel=0
+      mWifiSsid=null
+      mWifiIconId=0x7f020235/com.android.systemui:drawable/stat_sys_wifi_signal_null
+      mWifiActivity=0
+      - Bluetooth ----
+      mBtReverseTethered=false
+      - connectivity ------
+      mInetCondition=0
+      - icons ------
+      mLastDataDirectionIconId=0x7f0201e3/com.android.systemui:drawable/stat_sys_no_sim
+      mLastWifiIconId=0x7f020235/com.android.systemui:drawable/stat_sys_wifi_signal_null
+      mLastCombinedSignalIconId=0x0/(null)
+      mLastCombinedLabel=未连接互联网
+    -- dump clock Top --
+    -- dump clock expand --
+    -- dumpCapturedView view to System.out -- 
+    dumping service: com.android.systemui.usb.StorageNotification
+    dumping service: com.android.systemui.power.PowerUI
+    mLowBatteryAlertCloseLevel=20
+    mLowBatteryReminderLevels=[15, 4]
+    mInvalidChargerDialog=null
+    mLowBatteryDialog=null
+    mBatteryLevel=33
+    mBatteryStatus=2
+    mPlugType=2
+    mInvalidCharger=0
+    mScreenOffTime=-1
+    soundTimeout=0
+    bucket: 1
+    dumping service: com.android.systemui.media.RingtonePlayer
+    Clients:
+    dumping service: com.android.systemui.settings.SettingsUI
+    mBrightnessDialog=null

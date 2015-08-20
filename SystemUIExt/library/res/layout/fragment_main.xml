@@ -1,0 +1,22 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:lewa="http://schemas.android.com/apk/res/lewa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lewa.systemuiext.MainActivity$PlaceholderFragment" >
+
+    <com.lewa.systemuiext.switchwidget.SwitchWidget
+        android:id="@+id/switchwidget"
+        android:layout_margin="0dp"  
+        android:paddingLeft="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:listSelector="@android:color/transparent"/>
+<!-- 
+    <include 
+        android:layout_below="@id/switchwidget"
+        layout="@layout/switch_btn_brightness"/>
+-->
+</RelativeLayout>

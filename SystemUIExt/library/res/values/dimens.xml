@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="swipe_left_offset">100dp</dimen>
+    <dimen name="swipe_right_offset">100dp</dimen>
+    <dimen name="switchwidget_brightness_padding_inter">20dp</dimen>
+    <dimen name="status_bar_item_margin">5dp</dimen>
+    <dimen name="app_icon_size">32dip</dimen>
+    <dimen name="switch_layout_padding">22dip</dimen>
+    <dimen name="switch_text_size">14dip</dimen>
+    <dimen name="switch_text_left_padding">68dip</dimen>
+    <dimen name="switch_text_top_padding">8dip</dimen>
+    <!-- add by,zhangxianjia , 20120803, switch widget brightness layout parm-->
+    <dimen name="switchwidget_brightnesshigh">68px</dimen>
+    <dimen name="switchwidget_brightnesswidth">440px</dimen>
+    <dimen name="switchwidget_brightnessmargin">40px</dimen>
+    <dimen name="switchwidget_sbwidth">345px</dimen>
+    <dimen name="switchwidget_sbhigh">50px</dimen>
+    <dimen name="notifilterpopviewwidth">293dip</dimen>
+    <dimen name="status_bar_lewa_icon_size">27px</dimen>
+    <dimen name="status_bar_notify_icon_padding">4dp</dimen>
+    <dimen name="status_bar_first_notify_icon_padding">2dp</dimen>
+    <dimen name="expand_closeview_shader_height">8dip</dimen>
+    <dimen name="switchtab_divider_height">1dp</dimen>
+    <dimen name="usbswitchframmargin">0dip</dimen>
+    <dimen name="usbswitchbgmargin">0dip</dimen>
+    <dimen name="usbswitchmargin">0dip</dimen>
+    <dimen name="usbswitchtxtmargin">8dip</dimen>
+    <dimen name="icon_rightsize">5dip</dimen>
+
+    <!-- Top margin of scroll view -->
+    <dimen name="scroll_view_margin_top">183dip</dimen>
+    <dimen name="holo_blue_line_height">1dp</dimen>
+    <dimen name="toplinehor_height">1dp</dimen>
+    <dimen name="battery_offset">0px</dimen>
+    <dimen name="clock_text_size">14dp</dimen>
+    
+    <dimen name="close_handle_height">20dp</dimen>
+    <dimen name="close_handle_underlap">0dp</dimen>
+
+    <item type="dimen" name="status_bar_icon_drawing_alpha">100%</item>
+    <dimen name="notification_row_min_height">70dp</dimen>
+    <dimen name="notification_divider_height">1dp</dimen>
+   
+    <dimen name="fragment_padding_side">15dp</dimen>
+    <dimen name="fragment_padding_side_left">15dp</dimen>
+    <dimen name="widget_icon">28dp</dimen>
+    <dimen name="item_padding_side">8dip</dimen>
+    <dimen name="text_widget">12sp</dimen>
+    
+    <dimen name="drag_view_height">30dp</dimen>
+    <dimen name="netusage_height">16dp</dimen>
+    <dimen name="netusage_text_size">9sp</dimen>
+
+    <!-- usb -->
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    
+    <dimen name="data_usb_switch_margin_right">10dp</dimen>
+    <dimen name="switch_widget_item_height">80dp</dimen>
+    <dimen name="switch_widget_panel_offset">25dp</dimen>
+    <dimen name="split_action_bar_height">48dp</dimen>
+    <dimen name="switcher_width_dimen">26dp</dimen>
+    <dimen name="signal_margin">2dp</dimen>
+
+
+</resources>

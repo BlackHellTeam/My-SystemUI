@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+  LEWA ADD
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Tabs for statusbar expanded view -->
+    <string name="lewa_status_bar_settings_battery_meter_format" translatable="false">
+        <xliff:g id="number">%d</xliff:g>
+    </string>
+
+    <!-- Text to display next to the minimal graphical battery meter.  [CHAR LIMIT=3] -->
+    <string name="status_bar_settings_battery_meter_min_format" translatable="false">
+        <xliff:g id="number">%d</xliff:g>
+    </string>
+    <string name="tab_notifications">Notifications</string>
+    <string name="tab_switches">Switches</string>
+    <string name="title_buttons">Buttons</string>
+    <string name="title_toggle_wifi">WLAN</string>
+    <string name="title_toggle_bluetooth">BT</string>
+    <string name="title_toggle_gps">GPS</string>
+    <string name="title_toggle_sound">Silent</string>
+    <string name="title_toggle_vibrator">Vibrator</string>
+    <string name="title_ringer_vibrator">Ring vibrator</string>
+    <string name="title_toggle_brightness">Backlight</string>
+    <string name="title_toggle_sync">Toggle Sync</string>
+    <string name="title_toggle_mobiledata">Data</string>
+    <string name="title_toggle_lockscreen">Lockscreen</string>
+    <string name="title_toggle_networkmode">2G/3G</string>
+    <string name="title_toggle_autorotate">Rotation</string>
+    <string name="title_toggle_airplane">Flight</string>
+    <string name="title_toggle_flashlight">Torch</string>
+    <string name="title_toggle_sleep">Go to sleep</string>
+    <string name="title_toggle_locknow">Lock</string>
+    <string name="title_toggle_shutdown">Power</string>
+    <string name="title_toggle_reboot">Reboot</string>
+    <string name="title_toggle_powermanager">Power+</string>
+    <string name="title_toggle_switchwidgetstyle">More</string>
+    <string name="title_toggle_screencapture">Screenshot</string>
+    <string name="title_toggle_wifiap">WifiAp</string>
+    <string name="title_qr_code">QR code</string>
+    <string name="title_nightmode">Night</string>
+    <string name="title_halo">Halo</string>
+    <string name="title_toggle_screen_wake">Screen light</string>
+    <!-- SwitchWidgetSettingsActivity -->
+    <string name="switchwidgetsettings_title">Switch position Settings</string>
+    <string name="phonestatusbarsettings_title">Switch position Settings</string>
+    <string name="switchwidgetsettings_switch_title">Status bar Settings</string>
+    <string name="switchwidgetsettings_switch_on">open</string>
+    <string name="switchwidgetsettings_switch_off">close</string>
+    <string name="switchwidgetsettings_notice_title">Control Panel only has room for 10 controls</string>
+    <string name="statusbarsettings">Status bar Settings</string>
+    <string name="double_statusbar_setting">Double Page Statusbar</string>
+    
+    <string name="hotknot_settings_title">MoMoDa</string>
+    <string name="title_hotknot">MoMoDa</string>
+    
+    <string name="twelve_hour_time_format_nopm">h:mm</string>
+
+
+    <string name="settings_double_status">key_double_status</string>
+    <string name="widget_setting">Customize Status bar position</string>
+    <string name="usagedata_setting">Show Data usage</string>
+    <string name="netspeed_setting">Show Network Speed</string>
+    <string name="settings_disusagedata">key_usagedata_settings</string>
+    <string name="today_usage">Today:</string>
+    <string name="month_left_usage">Remain:</string>
+    <string name="recent_totalmem">Total Memory:</string>
+    <string name="recent_usedmem">Used Memory:</string>
+    <string name="usb_mode_notification">USB Storage</string>
+    <string name="trans_statusbar_setting">Transparent status bar</string>
+    <string name="poputip_title1">This notification From</string>
+    <string name="poputip_title2">Ban</string>
+    <string name="poputip_title3">Ban the notifications push for this application</string>
+    <string name="poputip_title4">View details of this application</string>
+    <string name="poputip_toast">Baned<xliff:g id="name">%s</xliff:g>message push</string>
+    <string name="notifilter_setting">Notifications Settings</string>
+    <string name="notifilter_activity_title">Notifications Filter Settings</string>
+    <string name="power_battery_fulltitle">Battery Power</string>
+    <string name="power_battery_full">Battery Power is full please disconnect your power device</string>
+    <string name="lockscreen_expanded">expandable under fullscreen</string>
+    <string name="lockscreen_expanded_comman">only work for insecure keyguard</string>
+    <string name="title_toggle_gemini_data">Data card</string>
+
+    <string name="recent_noapp">No recent apps</string>
+    <string name="notifilter_cloud">Notifications Intercept Cloud</string>
+    <string name="notifilter_addtoblack">Add to BlackList</string>
+    <string name="notifilter_del">Del one from Blacklist</string>
+    <string name="notifilter_allow">Allow</string>
+    <string name="notifilter_denie">Deny</string>
+    <plurals name="notifilter_headernotice">
+        <item quantity="one">%d Notification has been Blocked</item>
+        <item quantity="other">%d Notifications have been Blocked</item>
+    </plurals>
+    <string name="notifilter_item_activity">Notification Manager</string>
+    <string name="notifilter_cloudtip">Intelligent advertising push information to intercept the notification bar\nLatest version:  </string>
+    <string name="notifilter_cloudloading">Now Cloud Loading...</string>
+    <string name="notifilter_cloudlasttime">Last download time:</string>
+    <string name="otg_to_filemanager">Click enter to file manager</string>
+    <string name="otg_connect">USB storage device is connected</string>
+    <string name="otg_unmount">Safely unmount</string>
+    <string name="recent_meminfo">%1$dM/%2$dM</string>
+    <!--HALO-->
+ 
+    <string name="accessibility_halo">Create notification halo.</string>
+    <string name="halo_dismiss">Dismiss notification</string>
+    <string name="halo_hide">Hide</string>
+    <string name="halo_clear_all">Dismiss all notifications</string>
+    <string name="halo_silence">Hide &amp; silence until woken</string>
+    <string name="halo_tutorial1">This is HALO</string>
+    <string name="halo_tutorial2">Move me: 2x-tap &amp; drag</string>
+    <string name="halo_tutorial3">Browse tasks: Horizontal drag</string>
+    <string name="halo_battery_plugged">CHARGING</string>
+    <string name="halo_battery_unplugged">REMAINING</string>
+    <string name="halo_battery_full">FULL</string>
+    <string name="halo_aeroplane1">AEROPLANE</string>
+    <string name="halo_aeroplane2">MODE</string>
+    <string name="halo_wifi_on">WI-FI ON</string>
+    <string name="halo_wifi_off">WI-FI OFF</string>
+    <string name="halo_signal_bars_4">FULL</string>
+    <string name="halo_signal_bars_3">THREE BARS</string>
+    <string name="halo_signal_bars_2">TWO BARS</string>
+    <string name="halo_signal_bars_1">ONE BAR</string>
+    <string name="halo_signal_bars_none">NO BARS</string>
+    <string name="trans_statusbar_key" translatable="false" >trans_statusbar_key</string>
+    
+    <string name="menu_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> selected</string>
+    
+    
+    
+    <string name="reboot_now_confirm">yes</string>
+    <string name="reboot_later_confirm">no</string>
+    <string name="reboot">reboot</string>
+    <string name="reboot_message">Are you reboot to become effective</string>
+    
+    <string name="set_data_subscription_progress">Set data subscription in progress</string>
+    <string name="title_toggle_msim_data">Data card</string>
+    
+    <string name="shake_clean_title">Shake to clean notifications</string>
+    <string name="shake_clean_summary">shake the phone to quickly clean notifications</string>
+    <string name="lewa_status_bar_date_formatter">%2$s\n%1$s %3$s</string>
+    
+    <string name="twenty_four_hour_time_format">H:mm</string>
+    <string name="twelve_hour_time_format">h:mm a</string>
+    <string name="usage_title">Usage Data</string>
+    <string name="widget_disabled_mobile">Mobile data disabled</string>
+    <string name="widget_data_pack_warning">Please set data plan</string>
+    <string name="widget_exceed">Exceed</string>
+    <string name="not_set">Not set</string>
+    <string name="zero">0B</string>
+    <string name="widget_remain">Left</string>
+    <string name="widget_today_usage">Today</string>
+    <string name="netusage">network manager</string>
+        
+    <string name="single_page_title">single page</string>
+    <string name="single_page_summary">single page notification</string>
+
+    <string name="block_notification">block notification</string>
+
+    <string name="notifications_empty">no notifications</string>
+    <string name="pref_title_action_updown">Desktop Gestures</string>
+    <string name="pref_summary_action_updown">From the desktop, swipe down to open the notifications</string>
+   <!-- Text to display next to the graphical battery meter.  [CHAR LIMIT=3] -->
+    <string name="status_bar_settings_battery_meter_format" translatable="false">
+        <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>
+    </string>
+<!-- USB -->
+    <string name="mobile_data_warning">"Open data connection, which may result in traffic costs."\n\n"Warning: If you do not understand the request, or if you do not want to join this action, it is generally reject a good choice."</string>
+    <string name="status_remind_rec_start">Recording</string>
+    <string name="status_remind_rec_pause">Pause record</string>
+    <string name="status_remind_incall">Dialing</string>
+    <string name="status_remind_wifiap">Wi-Fi hotspot:</string>
+    <string name="status_remind_light">Torch opening</string>
+</resources>

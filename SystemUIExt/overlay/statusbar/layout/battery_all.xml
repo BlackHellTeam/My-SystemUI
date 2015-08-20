@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:id="@+id/battery_all"
+    >
+                <!-- M: Support "SystemUI - Battery Percentage". @{ -->
+    <RelativeLayout
+        android:id="@+id/battery_combo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/status_bar_item_margin"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/battery_background"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/stat_sys_battery_0"
+            android:contentDescription="@null"
+            />
+
+        <com.lewa.systemuiext.widgets.PrettyTextView
+            android:id="@+id/battery_level"
+            android:textAppearance="@style/TextAppearance.StatusBar.Small"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+    <com.lewa.systemuiext.widgets.PrettyTextView
+        android:id="@+id/battery_percentage"
+        android:gravity="center_vertical"
+        android:textAppearance="@style/TextAppearance.StatusBar.Clock"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/status_bar_item_margin"/>
+    <ImageView
+        android:id="@+id/battery_image"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/status_bar_item_margin"
+        />
+</LinearLayout>

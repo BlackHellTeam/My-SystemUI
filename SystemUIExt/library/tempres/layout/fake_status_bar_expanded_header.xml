@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res/com.lewa.systemuiext"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    systemui:forceTextColor="@color/systemuiPrimaryColor"
+     >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_notifi_dateview"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <com.lewa.systemuiext.widgets.Clock
+                android:id="@+id/clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Clock" />
+
+            <com.lewa.systemuiext.widgets.DateView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Date" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/header_debug_info"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:textColor="#00A040"
+            android:padding="2dp"
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+<!--                 <include -->
+<!--                 layout="@layout/gemini_carrier_label" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 /> -->
+<!--                 <include -->
+<!--                 layout="@layout/carrier_label" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_width="wrap_content"/> -->
+            </FrameLayout>
+
+            <!-- M: Support "SystemUI - Dual SIM". @{ -->
+<!--
+            <LinearLayout
+                android:id="@+id/msim_carrier_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dip"
+                android:gravity="left"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <com.android.systemui.statusbar.phone.MSimCarrierLabel
+                    android:id="@+id/carrier1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:drawableLeft="@drawable/sim_card_1"
+                    android:textAppearance="@style/TextAppearance.StatusBar.Carrier.Lewa" />
+
+                <com.android.systemui.statusbar.phone.MSimCarrierLabel
+                    android:id="@+id/carrier2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:drawableLeft="@drawable/sim_card_2"
+                    android:textAppearance="@style/TextAppearance.StatusBar.Carrier.Lewa" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carrier_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dip"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <com.android.systemui.statusbar.phone.CarrierLabel
+                    android:id="@+id/carrier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.StatusBar.Carrier.Lewa" />
+           </LinearLayout>
+-->
+            <View
+                android:layout_marginTop="14dip"
+                android:layout_marginBottom="14dip"
+                android:layout_width="@dimen/notification_divider_height"
+                android:layout_height="match_parent"
+                android:background="@*android:drawable/list_divider_holo_light" />
+        
+ 
+            <FrameLayout
+                android:id="@+id/settings_button_holder"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                >
+<!--             <ImageView -->
+<!--                 android:id="@+id/settings_button" -->
+<!--                 android:layout_width="48dp" -->
+<!--                 android:layout_height="48dp" -->
+<!--                 android:contentDescription="@string/accessibility_settings_button" -->
+<!--                 android:scaleType="center" -->
+<!--                 android:background="?android:attr/listChoiceBackgroundIndicator" -->
+<!--                 android:src="@drawable/ic_notify_quicksettings" -->
+<!--                 android:visibility="invisible" /> -->
+      
+<!--            <ImageView android:id="@+id/notification_button" -->
+<!--             android:layout_width="50dp" -->
+<!--             android:layout_height="50dp" -->
+<!--             android:scaleType="center" -->
+<!--             android:src="@drawable/ic_notifications" -->
+<!--             android:background="@drawable/ic_notify_button_bg" -->
+<!--             android:visibility="gone" -->
+<!--             android:contentDescription="@string/accessibility_notifications_button" -->
+<!--             /> -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/clear_all_button" -->
+<!--                 android:layout_width="48dp" -->
+<!--                 android:layout_height="48dp" -->
+<!--                 android:layout_alignParentRight="true" -->
+<!--                 android:contentDescription="@string/accessibility_clear_all" -->
+<!--                 android:scaleType="center" -->
+<!--                 android:background="?android:attr/listChoiceBackgroundIndicator" -->
+<!--                 android:src="@drawable/ic_notify_clear" -->
+<!--                 android:visibility="gone" /> -->
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+<!--     <View -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="@dimen/holo_blue_line_height" -->
+<!--         android:background="@color/dividerColor" /> -->
+    <include layout="@layout/netusage" />
+<!--     <include layout="@layout/expandusbswitch"/> -->
+    
+<!--     <View -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="@dimen/toplinehor_height" -->
+<!--         android:background="@drawable/toplinehor"/> -->
+
+</LinearLayout>

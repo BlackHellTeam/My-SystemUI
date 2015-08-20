@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="alpha_black_20_percent">#33000000</drawable> <!-- 20% alpha black -->
+
+</resources>

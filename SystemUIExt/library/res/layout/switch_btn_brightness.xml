@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lewa.systemuiext.switchwidget.BrightnessView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:id="@+id/brightnessView">
+
+    <RelativeLayout
+        android:layout_width="@dimen/status_bar_switchwidget_width"
+        android:layout_height="@dimen/switch_widget_item_height"
+        android:background="@drawable/bg_brightness_control"
+        android:id="@+id/brightnessControlView"
+        android:layout_marginRight="10dp"
+        android:gravity="center" >
+
+        <SeekBar
+            android:id="@+id/seekbright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="0.5dp"
+            android:progressDrawable="@drawable/seek_bar_background" 
+            android:thumb="@drawable/seek_bar_thumb"
+            android:layout_marginLeft="@dimen/switchwidget_brightness_padding_inter"
+            android:layout_marginRight="@dimen/switchwidget_brightness_padding_inter" />
+    </RelativeLayout>
+
+</com.lewa.systemuiext.switchwidget.BrightnessView>

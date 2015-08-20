@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lewa.systemuiext.widgets.ForceTextColorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    systemui:forceTextColor="@color/systemuiPrimaryColor" >
+
+    <RelativeLayout
+        android:id="@+id/notification_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/notification_header_height"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical" >
+
+            <com.lewa.systemuiext.widgets.Clock
+                android:id="@+id/clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Clock" />
+
+            <com.lewa.systemuiext.widgets.DateView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center" >
+
+            <!-- M: Support "SystemUI - Dual SIM". @{ -->
+
+            <LinearLayout
+                android:id="@+id/carrier_label_gemini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="13.5dip"
+                android:gravity="left"
+                android:orientation="vertical"
+                android:visibility="invisible" >
+
+                <com.lewa.systemuiext.widgets.MarqueeTextView
+                    android:id="@+id/carrier1"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:drawableLeft="@drawable/sim_card_1"
+                    android:drawablePadding="5dp"
+                    android:gravity="left"
+                    android:ellipsize="marquee"
+                    android:focusable="true"  
+                    android:focusableInTouchMode="true"  
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:scrollHorizontally="true"
+                    android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network" />
+
+                <com.lewa.systemuiext.widgets.MarqueeTextView
+                    android:id="@+id/carrier2"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:drawableLeft="@drawable/sim_card_2"
+                    android:drawablePadding="5dp"
+                    android:gravity="left"
+                    android:focusable="true"  
+                    android:scrollHorizontally="true"
+                    android:focusableInTouchMode="true"  
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network" />
+            </LinearLayout>
+            <!-- M: Support "SystemUI - Dual SIM". }@ -->
+
+            <View
+                android:layout_width="@dimen/notification_divider_height"
+                android:layout_height="20dp"
+                android:background="#ff5e5e5e" />
+
+            <FrameLayout
+                android:id="@+id/settings_button_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/settings_button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ripple_drawable"
+                    android:contentDescription="@string/accessibility_settings_button"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_settings"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/clear_all_button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ripple_drawable"
+                    android:contentDescription="@string/accessibility_clear_all"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_notify_clear"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/notifilter_button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ripple_drawable"
+                    android:contentDescription="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_notifilter"
+                    android:visibility="gone" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/switch_widget_disabled_color" />
+
+    <include layout="@layout/netusage" />
+
+</com.lewa.systemuiext.widgets.ForceTextColorLayout>

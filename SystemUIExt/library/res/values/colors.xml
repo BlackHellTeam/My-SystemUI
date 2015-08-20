@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2010, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <color name="dividerColor">#19FFFFFF</color>
+    <drawable name="switchbutton_background_color">#00000000</drawable>
+    <drawable name="switchbutton_background_color_pressed">#ff5bc3ea</drawable>
+
+     <!-- ADD DEBUG MESSAGE, do not merge this if you see it-->
+    
+    <color name="systemuiPrimaryColor">#FFFFFF</color>
+    
+    <drawable name="android_list_divider_holo_light">#FF00FF</drawable>
+    
+    <drawable name="android_list_selector_holo_light">#FFFFFF</drawable>
+    
+    <drawable name="android_cab_background_top_holo_light">#EEEEEE</drawable>
+    
+    <drawable name="android_screen_background_selector_light">#EEEEEE</drawable>
+    
+
+    <!--       WE DO THIS FOR FASTER DEBUG     -->
+<!--     <color name="systemuiPrimaryColor">@*lewa:color/primary_text_holo_light</color> -->
+    
+<!--     <drawable name="android_list_divider_holo_light">@lewa:drawable/android_list_divider_holo_light</drawable> -->
+    
+<!--     <drawable name="android_list_selector_holo_light">@lewa:drawable/android_list_selector_holo_light</drawable> -->
+   
+<!--     <drawable name="android_cab_background_top_holo_light">@lewa:drawable/android_cab_background_top_holo_light</drawable> -->
+    
+<!--    <drawable name="android_screen_background_selector_light">@lewa:drawable/android_screen_background_selector_light</drawable> -->
+    
+    <color name="switch_text_blue_color">#FF009EE7</color>
+    <color name="switch_text_black_color">#FFF</color>
+    <color name="expand_usage_text_color">#ff5c5c5c</color>
+    <drawable name="notification_icon_area_smoke">#aa000000</drawable>
+    <color name="recent_mem_txt_color">#ff39b9f6</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lewa_carrier_color">#38445c</color>
+    <color name="carrier_one_color">#2b93d8</color>
+    <color name="carrier_two_color">#f67400</color>
+    <color name="expandview_bg">#FFEDEDED</color>
+    <color name="statusbar_datausage_leftcolor">#ff0000</color>
+    <color name="clear_button_text_color">#33b5e5</color>
+    <color name="switch_tab_bg_color">#E6E6E6</color>
+    <drawable name="notification_header_text_color">#ff848484</drawable>
+    <drawable name="expanded_header_bg">#ffdbdbdb</drawable>
+    <drawable name="notify_panel_notification_icon_bg_tile">#dcdddd</drawable>
+    <color name="recenttask_clear_memory_red_bg">#FFF0443B</color>
+    <color name="recenttask_clear_memory_green_bg">#FF5DAE28</color>
+    <color name="recenttask_clear_memory_yellow_bg">#FFF79A29</color>
+    <drawable name="bg_notifi_dateview">#ffdbdbdb</drawable>
+    <drawable name="bg_notifi_usagedata">#ffdbdbdb</drawable>
+    <drawable name="statusbar_background_transparent">#66000000</drawable>
+    <color name="full_battery">#ff65cc00</color>
+
+    <color name="switch_icon_txt_color">#FFF</color>
+    <color name="switch_text_holo_blue_light">@android:color/holo_blue_light</color>
+    <color name="net_usedata">#ff848484</color>
+    <color name="net_leftdata">#ff848484</color>
+    <drawable name="expandview_bg">#FFEDEDED</drawable>
+    <drawable name="status_bar_recents_background_solid">#b3000000</drawable>
+    <color name="transparent">#00000000</color>
+    <drawable name="notification_row_bg">@*android:drawable/list_selector_holo_light</drawable>
+    <color name="text_widget">?android:attr/textColorPrimary</color> 
+
+
+    <!--overlay-->
+    <color name="notification_panel_solid_background">#0000</color> 
+    <color name="alpha_white_45_percent_color">#70FFFFFF</color><!-- 45% alpha white -->
+    <color name="alpha_black_20_percent_color">#33000000</color><!-- 20% alpha black -->
+
+    <color name="switch_widget_disabled_color">#33ffffff</color>
+    <color name="switch_widget_enabled_color">#ffffff</color>
+</resources>

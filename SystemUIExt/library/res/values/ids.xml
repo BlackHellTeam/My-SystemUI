@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <item type="id" name="tag_key_button_type" />
+     <item type="id" name="dragView" />
+     <item type="id" name="slidingPanel" />
+     <item type="id" name="notification_header" />
+</resources>

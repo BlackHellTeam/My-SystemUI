@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="switchbuttons">
+    <item>SoundButton</item>
+    <item>HotknotButton</item>
+    <item>WifiButton</item>
+    <item>DataButton</item>
+    <item>AutoRotateButton</item>
+    <item>QrCodeButton</item>
+    <item>ScreenCaptureButton</item>
+    <item>TorchButton</item>
+    <item>BluetoothButton</item>
+    <item>LockButton</item>
+    <item>AirplaneButton</item>
+    <item>PowerManagerButton</item>
+    <item>WifiApButton</item>
+    <item>GpsButton</item>
+    <item>ScreenWakeButton</item>
+    <item>RebootButton</item>
+    <item>NightModeButton</item>
+    <item>ShutdownButton</item>
+
+    <item>MsimDataButton</item>
+    <item>GeminiDataButton</item>
+<!-- "IMPORTANT!! always make BrightnessButton and SwitchStyleButton the last two" -->
+    <item>BrightnessButton</item>
+    <item>SwitchStyleButton</item> 
+  </string-array>
+</resources>
